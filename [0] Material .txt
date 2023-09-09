@@ -1,0 +1,58 @@
+- Data structures: lists, dictionaries
+- Recursion
+
+# week 3 session 8 
+  ~~~~~~~~~~~~~~~
+- Dictionaries{}: Key : Value, Index is now a key. Key-Value pair. Its the same as a list but we can control the index name. 
+  Dictionary Functions: dict.get(), dict.pop()
+- menu function check classwork 3
+
+# week 4 session 9
+  ~~~~~~~~~~~~~~~
+- Time complexity and worst case analysis
+- O(1), O(n), O(n*2), O(n*3), O(k x l), O(nlog(n))
+
+# week 4 session 10
+  ~~~~~~~~~~~~~~~~
+- Linear search
+- Binary search
+- correction of binary numbers function
+
+# week 4 session 11
+  ~~~~~~~~~~~~~~~~
+- selection sort
+- merge sort
+
+# week 4 session 12
+  ~~~~~~~~~~~~~~~~
+- classes
+
+# Week 5 session 13
+  ~~~~~~~~~~~~~~~~
+- Linked list
+
+# week 5 session 14
+  ~~~~~~~~~~~~~~~~
+- code review
+
+# week 6 session 15
+  ~~~~~~~~~~~~~~~~
+- Stacks and Queues
+
+# Week 6 session 16
+  ~~~~~~~~~~~~~~~~
+- Graphs 
+
+# Week 6 session 17:
+  ~~~~~~~~~~~~~~~~
+- Adjacency list 
+- Adjacency matrix
+
+# Week 7 session 18:
+  ~~~~~~~~~~~~~~~~~
+- Tree
+- BFS and DFS using adjacency matrix and linked lists
+
+# Week 7 session 19:
+  ~~~~~~~~~~~~~~~~~
+- Binary Search Tree

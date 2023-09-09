@@ -1,0 +1,33 @@
+GRAPH and Tree
+~~~~~~~~~~~~~~~
+- A cycle is going to the same node without crossing the same edge
+- Every tree is a graph but nor every graph is a tree
+
+- A tree is an acyclic (No cycle) and connected graph
+  A tree cannot contain a cycle and a tree has to be connected (No stranded nodes)
+  A single node is considered a tree and even an empty graph is a tree
+  A tree is a connected graph
+
+- BFS and DFS is O(V^2)
+
+Binary Tree: 
+~~~~~~~~~~~
+- Binary tree has restrictions of a tree plus the restrictions of the binary tree. Binary Tree is a more constricted Tree
+
+- The Root has a right child and a left child
+A leaf is a node with zero children. Everything else is called internal nodes
+
+Binary Search Tree
+~~~~~~~~~~~~~~~~~~
+
+- All nodes in the right subtree are bigger than or equal to the parent node.
+- All the nodes in the left subtree are smaller than the parent node
+These conditions can be changed according to how we choose to use them. But this way, and using inOrder() will give us a sorted result.
+
+- Search, Add, and Delete re the 3 main functions in the Binry Search Tree
+- adding and searching is O(n) worst case is traversing the biggest subtree
+- sqewed tree is the worst case: when we have majority of the children on one side
+
+Tree Traversals:
+~~~~~~~~~~~~~~~~
+Inorder - preOrder - postOrder

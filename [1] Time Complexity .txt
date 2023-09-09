@@ -1,0 +1,93 @@
+# Session 9 => Big O Notation - Worst case analysis
+
+Summary:
+~~~~~~~~
+- O(1) constant time
+- O(n),  varies according to input length or times of traversal
+- O(n*2), O(n*3) can be nested loops 
+- O(k x l) depends on 2 constants. example 2 nested loops, first loops in range of k and second oin range of l
+- O(nlog(n)) division or cutting in half like sorting algorithms or tree-based algorithms (MergeSort, QuickSort, BinarySearch) Divide and conquer strategy
+
+~~~~~~~~~~~~~~~ END OF SUMMARY ~~~~~~~~~~~~~~~~~~~~~~
+
+
+- The hardware has an effect.
+  We approximate how fast the code is because each machine has its speed
+
+#1# 
+~~~
+O(1) is the best. 0(1): constant time (resources used). When our code is less dependent to the user it is more constant. We know how many steps the code takes we know whats going to happen and the user can't affect it: ex:
+for i in range(100): print(i)
+The user cant influence my code. I will always have the same constant resources. If the user can increase the resources then it won't be O(1)
+Constant resources are the best to use if we can. O(1) is called constant time.
+
+
+#2# 
+~~~
+O(n) Linear runtime: when n increases, our code's time and resource usage increases
+
+User dependent code: 
+n = input()
+for i in range(n):
+  print(n)
+
+
+#3# 
+~~~
+O(n**2)
+Nested Loops:
+for i in range(n):
+  for j in range(n):
+    print(n)
+
+#4# 
+~~~
+O(n**3)
+for i in range(n):
+  for j in range(n):
+    for r in range(n):
+      print(n)
+
+#5#
+~~~
+O(n) although it has 2 loops, the 2 seperate loops => n -> 2*(n**1) < n ** 2>
+# we focus on n and the exponents
+# so we drop the additions and the multiplications => we are left with n**1
+# O(2n) = O(3n) = O(4n) = O(n) in this case since they are separate, each loop is independent
+
+for i in range(n):
+  print i
+  
+for j in range(n):
+  print j
+
+#6# 
+~~~
+When we have 2 variables => O(i * j) since we are repeating j,  i times
+# This case is dependent on the first variable i. Unlike the previous example. 
+for i in range(n):
+  print i
+  for j in range(n):
+    print j
+
+
+#7# 
+~~~
+Since in the below condition we iterate 5 times, worst case is 5 which is a constant, then the notation is:
+# O(1)
+
+While count < 5...
+ ...
+
+#8#
+~~~
+O(log(n))
+Divide and conquer algorithms like mergesort or QuickSort
+
+
+#Note:
+for i in list1:
+  if i == whatever:
+    print(i)
+Runtime = O(n)
+where n is the length of the list since we dont know how long the list is

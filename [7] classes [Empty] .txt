@@ -1,0 +1,4 @@
+oop languages
+python to string function
+
+NOTE: any function(method) in a class uses self as the first prameter. def whataver(self...)

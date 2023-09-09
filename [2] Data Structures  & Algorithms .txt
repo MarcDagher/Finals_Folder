@@ -1,0 +1,36 @@
+Data Structures:
+~~~~~~~~~~~~~~~
+
+1) Lists: Ordered using index, changeable, allow duplicates => Search in O(n) [Linear data structures]
+
+2) Tuples: ordered ([0][1]), unchangeable (can't add or remove elements), and allow duplicate values => Search in O(n). Note: To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple. [Linear data structures]
+
+3) Sets: Unordered, Don't take duplicates, unchangeable => search in O(1) [Hash based with efficient insertion, deletion, and membership testing]
+
+4) Dictionaries: ordered, changeable, no duplicates => search in O(1) [Hash-based]
+
+5) Linked Lists: => Search in O(n) [Linear data structure]
+
+6) Graphs [Implemented using adjacency list or adjacency matricies. Graphs are neither hash-based nor linear]
+
+7) Trees are types of graphs=> acyclic and connected [Trees are linear data structures in the sense that they have a hierarchical structure]
+
+8) Stacks: Last in first out [Linear data structure]
+
+9) Queues: First in first out [linear data structure] 
+
+Algorithms:
+~~~~~~~~~~~
+•	Linear Search (O(n)): An algorithm for finding a target element in a list by sequentially checking each element.
+
+•	Binary Search (O(log(n)): A search algorithm for efficiently finding an element in a sorted list by repeatedly dividing the search interval in half.
+
+•	Selection Sort (O(n^2)): A comparison-based sorting algorithm that repeatedly selects the smallest element and places it in its final position.
+
+•	Merge Sort (O(nlog(n)): A divide-and-conquer sorting algorithm that recursively splits the list into smaller segments and then merges them in sorted order.
+
+•	Recursion: A programming technique in which a function calls itself to solve a problem by breaking it into smaller, similar subproblems.
+
+•	Breadth First Search (O(n^2)): A graph traversal algorithm that explores all the vertices of a graph by visiting neighbors level by level.
+
+•	Depth First Search (O(n^2)): A graph traversal algorithm that explores as far as possible along each branch before backtracking.

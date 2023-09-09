@@ -1,0 +1,19 @@
+General Info:
+~~~~~~~~~~~~
+# Time Complexity 
+# Definitions and better understanding of each data structure#
+# Understand Objects and Classes. What are Objects? Role of __init__()
+# Graphs and Trees -> difference between them
+
+Algorithms:
+~~~~~~~~~~
+[DONE] # Review Linear and Binary Search 
+[DONE] # Review Sequential and Merge Sort
+[DONE] # Review Linked Lists and Doubly Linked Lists
+[DONE] # Uses Stacks and Queues with Linked Lists
+# Use adjacency Lists and Adjacency Matrix with Linked Lists
+# DFS and BFS using Linked Lists and watch out for "professional terms" -> push-pop-enqueue-dequeue
+# Binary tree and Binary search Tree
+# Tree Traversal -> inOrder() preOrder() postOrder()
+
+ONCE THIS IS DONE -> WE COVERED EVERYTHON WE TOOK
